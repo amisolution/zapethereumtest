@@ -1,7 +1,21 @@
 # zapethereumtest
-contain rest apis to get transaction details of erc20 token and contract execution
+I have deployed the Api on HEROKU and below are the api path for that
 
-#following are api url path for rest api
+# API PATH deployed on Heroku 
+
+1.Account Transfers
+
+https://lit-reef-72751.herokuapp.com/eth/api/v1/transaction/$TXID
+
+2.erc20 token
+
+https://lit-reef-72751.herokuapp.com/eth/api/v1/erctransaction/$TXID
+
+3.contract execution
+
+https://lit-reef-72751.herokuapp.com/eth/api/v1/ctetransaction/$TXID
+
+# API PATH for localhost
 
 1.Account Transfers
 
